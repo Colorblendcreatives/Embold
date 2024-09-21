@@ -1,111 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: 'Times New Roman', Times, serif;
         }
-
-        .email-signature {
-            width: 100%; 
-            max-width: 600px; 
-            border: 0px solid #F27928;
-            display: table; 
-        }
-        .signature-container {
-            display: table-row; 
-        }
-        .profile {
-            display: table-cell; 
-            width: 150px;
-        }
-        .profile img {
-            height: 200px;
-        }
-        .details {
-            display: table-cell; 
-            vertical-align: middle; 
-        }
-        .details h2 {
-            margin: 0;
-            font-size: 30px;
-            color: #F27928;
-            padding-top: 2px;
-        }
-        .details p {
-            margin-top: 0px;
-            font-size: 15px;
-            color: #666;
-        }
-        .details .contact-info {
-            margin-top: 4%;        
-        }
-        .contact-info img {
-            vertical-align: middle;
-            margin-right: 10px;
-            padding-bottom: 5px;
-        }
-        .logo {
-            display: table-cell; 
-            text-align: center; 
-            vertical-align: middle; 
-        }
-        .logo img {
-            width: 140px;
-            height: 100px;
-            padding-left: 40px;
-        }
-        .orange-line {
-            width: 200px; 
-            height: 2px; 
-            background-color: #F27928; 
-            margin: 10px 0; 
-            border-radius: 2px;
-        }
-
-    
     </style>
 </head>
 <body>
 <p>Kind Regards,</p>
-<div class="email-signature">
-    <div class="signature-container">
-        <!-- Profile Image -->
-        <div class="profile">
-            <img src="Profile.png" alt="Gabriel Iruaga">
-        </div>
-
-        <!-- Details -->
-        <div class="details">
-            <h2>Gabriel Iruaga</h2>
-            <p>Founder | Embold Design</p>
-            <div class="orange-line"></div> <!-- Orange line -->
-            <div class="contact-info">
-                <p>
-                    <a href="tel:+447423110050">
-                        <img src="call.png" alt="Phone" width="24"> +44 7423 110050
+<table style="width: 100%; max-width: 650px; border-collapse: collapse;">
+    <tr>
+        <td style="padding: 10px; vertical-align: top;">
+            <!-- Profile Image -->
+            <img src="Profile.png" alt="Gabriel Iruaga" style="height: 200px; width: auto; border: none;">
+        </td>
+        <td style="padding: 10px; vertical-align: top;">
+            <!-- Details -->
+            <h2 style="margin: 0; font-size: 30px; color: #F27928;">Gabriel Iruaga</h2>
+            <p style="margin: 5px 0; font-size: 15px; color: #666;">Founder | Embold Design</p>
+            <div style="width: 100%; height: 2px; background-color: #F27928; margin: 10px 0;"></div>
+            <div style="font-size: 15px; color: #666;">
+                <p style="margin: 0;">
+                    <a href="tel:+447423110050" style="text-decoration: none; color: #666;">
+                        <img src="call.png" alt="Phone" width="24" style="vertical-align: middle; margin-right: 10px;"> +44 7423 110050
                     </a><br>
-                    <a href="mailto:info@embolddesign.com"> 
-                        <img src="Mail.png" alt="Email" width="24"> info@embolddesign.com
+                    <a href="mailto:info@embolddesign.com" style="text-decoration: none; color: #666;">
+                        <img src="Mail.png" alt="Email" width="24" style="vertical-align: middle; margin-right: 10px;"> info@embolddesign.com
                     </a><br>
-                    <a href="http://www.embolddesign.com"> 
-                        <img src="Web.png" alt="Website" width="24"> www.embolddesign.com
+                    <a href="http://www.embolddesign.com" style="text-decoration: none; color: #666;">
+                        <img src="Web.png" alt="Website" width="24" style="vertical-align: middle; margin-right: 10px;"> www.embolddesign.com
                     </a><br>
-                    <a href="https://www.google.com/maps/search/?api=1&query=London,+United+Kingdom" target="_blank">
-                        <img src="Location.png" alt="Location" width="24"> London, United Kingdom
+                    <a href="https://www.google.com/maps/search/?api=1&query=London,+United+Kingdom" target="_blank" style="text-decoration: none; color: #666;">
+                        <img src="Location.png" alt="Location" width="24" style="vertical-align: middle; margin-right: 10px;"> London, United Kingdom
                     </a>
                 </p>
             </div>
-        </div>
-
-        <!-- Embold Design Logo -->
-        <div class="logo">
-            <a href="https://www.embolddesign.com"> 
-                <img src="logo (2).png" alt="Embold Design">
+        </td>
+        <td style="padding: 10px; vertical-align: middle; text-align: center;">
+            <!-- Embold Design Logo -->
+            <a href="https://www.embolddesign.com" style="text-decoration: none;">
+                <img src="logo (2).png" alt="Embold Design" style="width: 140px; height: auto;">
             </a>
-        </div>
-    </div>
-</div>
-
+        </td>
+    </tr>
+</table>
 </body>
 </html>
