@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.signature-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e87922;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 1000px;
+    height: 120px;
+}
+
+.signature-details {
+    margin-left: 20px;
+    flex: 1;
+}
+
+.signature-details h2 {
+    color: #e87922;
+    margin: 0;
+    font-size: 24px;
+}
+
+.signature-details p {
+    margin: 5px 0;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.contact-details p::before {
+    margin-right: 8px;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .signature-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signature-details {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
